@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.ordercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+
+.orderCard {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  width: 200px;
+}
+
+.checkOutBtn {
+  background-color: blue;
+  border: none;
+  color: #ffffff;
+  padding: 5px;
+  width: 100px;
+}
+
+.order-heading{
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
